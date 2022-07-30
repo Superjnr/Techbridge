@@ -1,0 +1,310 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .first-section {
+        width: 100%; }
+
+        .row {margin: 0px 10px;}
+  } 
+
+/* Small tablets to big tablet : from 970px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {font-size: 16px;
+        margin: 0px 10px;}
+
+        .first-section h1 {
+            font-weight: 700; 
+            font-size: 35px;
+            text-align: center;   
+        }
+
+        .first-section p {
+            text-align: center;  
+        }
+
+    .btn:link,
+    .btn:visited {
+    background: #de893f;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    position: relative; left: 280px;
+    transition: background-color 0.5s;
+}  
+
+    .btn:hover,
+    .btn:active {
+    background: #9e5515;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    position: relative; left: 280px;
+}
+.second-section h2 {
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.second-section i{
+    color: rgb(32, 32, 174);
+    font-size: 30px;
+    margin: 0px 0px 25px 100px;
+}
+
+.about span {
+    color: white;
+    font-size: 45px;
+    position: relative; top: 100px; left: 50px;
+}
+
+.third-section p {
+    font-size: 12px;
+    margin-bottom: 130px;
+ }
+
+ .update input[type=text] {
+    background-color: (214, 209, 209);
+    border: 1px solid rgb(214, 209, 209);
+    padding: 16px 80px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 40px 0px 70px 100px;
+}
+
+}
+
+
+/* Small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px;
+        margin: 0px 10px;}
+
+        .first-section h1 {
+            font-weight: 400; 
+            font-size: 50px; 
+            margin-top: 500px;  
+        }
+
+        
+.lady {
+    background-image: url(img/Background-blue.png);
+    background-repeat: no-repeat;
+    float: right;
+    position: relative; top: 130px; left: 40px;
+    height: 350px;
+}
+
+.lady img {
+    height: 450px;
+    position: relative; bottom: 120px; right:20px;
+}
+
+
+.btn:link,
+.btn:visited {
+background: #de893f;
+color: white;
+padding: 16px 35px;
+border-radius: 5px;
+position: relative; left: 130px;
+transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+background: #9e5515;
+color: white;
+padding: 16px 35px;
+border-radius: 5px;
+position: relative; left: 130px;
+}
+
+.second-section i{
+    color: rgb(32, 32, 174);
+    font-size: 30px;
+    margin: 0px 0px 25px 50px;
+}
+
+.about span {
+    color: white;
+    font-size: 25px;
+    position: relative; top: 100px; left: 10px;
+}
+
+.about img {
+    height: 50px;
+}
+
+
+.play {
+    float: right;
+    background-color:  white;
+    position: relative; bottom: 50px; right: 20px;
+    padding-top: 10px;
+}
+
+
+.about h3{
+    color: rgb(34, 34, 217);
+    position: relative; top: 80px; left: 30px;
+}
+
+.about i {
+    color: rgb(32, 32, 174);
+    font-size: 30px;
+    margin: 0px 0px 25px 80px;
+    position: relative; bottom: 20px;
+    
+}
+
+.update input[type=text] {
+    background-color: (214, 209, 209);
+    border: 1px solid rgb(214, 209, 209);
+    padding: 16px 80px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 40px 0px 70px 50px;
+}
+
+.update .btn-full:link, 
+.update .btn-full:visited{
+    background: #de893f;
+    color: white;
+    padding: 17px 35px;
+    border-radius: 5px;
+    position: relative; left: 145px; bottom: 30px;
+    transition: background-color 0.5s;
+}
+
+.update .btn-full:hover,
+.update .btn-full:active {
+    background: #9e5515;
+    color: white;
+    padding: 17px 35px;
+    border-radius: 5px;
+}
+
+}
+
+/* Small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .nav li{
+        display: inline-block;
+        margin-left: 30px;
+        position: relative; bottom: 60px;
+    }
+    .nav-button {
+        float: right;
+        margin-left: 30px;
+        display: inline-block;
+        position: relative; top: 12px;
+    }
+    .lady img {
+        height: 450px;
+        position: relative; bottom: 100px; right: -55px;
+    }
+    .first-section h1 {
+        font-weight: 700; 
+        font-size: 45px;
+        padding-top: 15px;   
+    }
+    .second-section i{
+        color: rgb(32, 32, 174);
+        font-size: 30px;
+        margin: 10px 0px 25px 150px;
+    }
+    
+.play {
+    float: right;
+    background-color:  white;
+    position: relative; bottom: 50px; right: -10px;
+    padding-top: 20px;
+}
+
+.about span {
+    color: white;
+    font-size: 30px;
+    position: relative; top: 100px; left: -10px;
+}
+
+.about p {
+   padding: 25px;
+}
+
+.about h3{
+    color: rgb(34, 34, 217);
+    position: relative; top: 50px; left: 80px;
+}
+
+.about i {
+    color: rgb(32, 32, 174);
+    font-size: 30px;
+    margin: 0px 0px 25px 90px;
+    position: relative; bottom: 20px;
+    
+}
+.btn:link,
+.btn:visited {
+    background: #de893f;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    margin: 0px 0px 25px -35px;
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: #9e5515;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    margin: 0px 0px 25px -35px;
+}
+.update input[type=text] {
+    background-color: (214, 209, 209);
+    border: 1px solid rgb(214, 209, 209);
+    padding: 16px 80px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 40px 0px 70px 10px;
+}
+.btn-full:link, 
+.btn-full:visited{
+    background: #de893f;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    margin: 0px 0px 25px -35px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: #9e5515;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    margin: 0px 0px 25px -35px;
+}
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 1px solid rgb(214, 209, 209);
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 0px 35px 25px 0px;
+    transition: background-color 0.5s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background: #9e5515;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 0px 35px 25px 0px;
+}
+
+
+    
+}
