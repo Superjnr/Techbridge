@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: white;
+  color: black;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*=========First Section==============*/
+.first-section {
+  margin-top: 30px;
+}
+
+.first-section h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.nav-button {
+  float: right;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.nav {
+  list-style: none;
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: blue;
+}
+
+.lady {
+  background-image: url(img/Background-blue.png);
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  top: 150px;
+  left: 90px;
+}
+
+.lady img {
+  height: 600px;
+  position: relative;
+  bottom: 150px;
+  right: 80px;
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+
+/*=======BUTTONS=========*/
+.btn-full:link,
+.btn-full:visited {
+  background: #de893f;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background: #9e5515;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 5px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid rgb(214, 209, 209);
+  padding: 15px 35px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid rgb(214, 209, 209);
+  background: #9e5515;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+.btn:link,
+.btn:visited {
+  background: #de893f;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  transition: background-color 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+  background: #9e5515;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+}
+
+/*=========Mobile Navi==============*/
+.mobile-nav-icon {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  bottom: 75px;
+  display: none;
+}
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: blue;
+}
+
+/*=======Animations=========*/
+.am {
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+
+.am2 {
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+
+.second-section.animate__animated {
+  animation: fadeInRight;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+
+.about.animate__animated {
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+
+.third-section.animate__animated {
+  animation: fadeInRight;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+
+.update.animate__animated {
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+
+/*============ Second Section===========*/
+.second-section i {
+  color: rgb(32, 32, 174);
+  font-size: 30px;
+  margin: 0px 0px 25px 165px;
+}
+
+.second-section h2 {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.second-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.second-section h3 {
+  color: rgb(32, 32, 174);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.second-section p {
+  font-size: 18px;
+  word-spacing: 0em;
+  text-align: center;
+}
+
+.about {
+  display: inline-block;
+  background: linear-gradient(10deg, rgb(20, 20, 69), rgb(41, 41, 57));
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.play {
+  float: right;
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  right: 80px;
+  padding-top: 30px;
+}
+
+.span {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+
+.about p {
+  padding: 25px;
+}
+
+.about h3 {
+  color: rgb(34, 34, 217);
+  position: relative;
+  top: 80px;
+  left: 80px;
+}
+
+.about i {
+  color: rgb(32, 32, 174);
+  font-size: 30px;
+  margin: 0px 0px 25px 140px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*============ Third Section===========*/
+
+.third-section h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.third-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.steps {
+  margin-top: 50px;
+  line-height: 2em;
+}
+
+.third-section img {
+  height: 120px;
+  display: block;
+  margin: 50px 0px 90px 180px;
+}
+
+.third-section h4 {
+  font-size: 18px;
+  color: rgb(26, 26, 150);
+}
+
+.third-section p {
+  font-size: 16px;
+  margin-bottom: 130px;
+}
+
+.steps div {
+  color: rgb(26, 26, 150);
+  border: 2px solid rgb(26, 26, 150);
+  display: inline-block;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  margin-right: 20px;
+}
+
+.update {
+  display: inline-block;
+  background: linear-gradient(10deg, rgb(25, 25, 152), rgb(22, 22, 126));
+  width: 100%;
+  border-radius: 25px;
+  line-height: 1.5em;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.update input[type="text"] {
+  background-color: (214, 209, 209);
+  border: 1px solid rgb(214, 209, 209);
+  padding: 16px 80px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin: 40px 0px 70px 340px;
+}
+
+.update h3 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.update p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+/*============ Last section========*/
+.last-section {
+  background: linear-gradient(10deg, rgb(12, 12, 59), rgb(33, 33, 130));
+  line-height: 2em;
+  padding-top: 100px;
+  color: white;
+}
+
+.last-section p {
+  font-size: 14px;
+}
+
+.last-section i {
+  color: blue;
+  padding: 10px;
+  font-size: 20px;
+  transition: color 0.5s;
+}
+
+.last-section i:hover,
+.last-section i:active {
+  color: rgb(33, 33, 160);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.rights p {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(236, 228, 228);
+}
